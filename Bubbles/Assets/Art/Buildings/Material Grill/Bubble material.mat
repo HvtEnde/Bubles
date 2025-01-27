@@ -74,8 +74,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AddAlpha: 0.1
-    - _BlendOpacity: 1.44
+    - _AddAlpha: 0
+    - _BlendOpacity: 0.7
     - _BlendSharpness: 1
     - _BubbleSpeed: 0.1
     - _BumpScale: 1
