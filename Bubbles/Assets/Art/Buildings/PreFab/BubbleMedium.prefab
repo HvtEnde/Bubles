@@ -11,17 +11,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0cdc10d8c18390b449eff407b3dbb60e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.8580327
+      value: 7.1004434
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0cdc10d8c18390b449eff407b3dbb60e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.870805
+      value: -0.72000027
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0cdc10d8c18390b449eff407b3dbb60e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.6579294
+      value: -1.3231182
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0cdc10d8c18390b449eff407b3dbb60e,
         type: 3}
@@ -68,6 +68,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BubbleMedium
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0cdc10d8c18390b449eff407b3dbb60e,
+        type: 3}
+      propertyPath: m_TagString
+      value: bubble
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -76,6 +81,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5533772175235681069}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0cdc10d8c18390b449eff407b3dbb60e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4943986860866632901}
   m_SourcePrefab: {fileID: 100100000, guid: 0cdc10d8c18390b449eff407b3dbb60e, type: 3}
 --- !u!1 &3001568106743229905 stripped
 GameObject:
@@ -105,3 +114,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7282043235709164623, guid: 0cdc10d8c18390b449eff407b3dbb60e, type: 3}
+--- !u!114 &4943986860866632901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3001568106743229905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c908f373dc7562c45b553be1a2d13f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumSize: 0.3
+  maximumSize: 1.5
